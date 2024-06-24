@@ -1,0 +1,16 @@
+#navbarNav a:hover{
+    color: rgb(2, 2, 2);
+}
+#navbarNav a{
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: linear-gradient(0deg, rgba(23,83,84,0.9332983193277311) 0%, rgba(51,65,170,1) 80%);
+    background-size: cover;
+}
