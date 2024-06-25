@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Playwrite+NG+Modern:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+NG+Modern:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 #navbarNav a:hover{
     color: rgb(2, 2, 2);
 }
 #navbarNav a{
     color: rgb(255, 255, 255);
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 a{
     text-decoration: none;
@@ -11,6 +17,26 @@ li{
     list-style: none;
 }
 body{
-    background: linear-gradient(0deg, rgba(23,83,84,0.9332983193277311) 0%, rgba(51,65,170,1) 80%);
     background-size: cover;
+    background-image: url('image/bg03.jpg');
+    backdrop-filter: blur(9px);;
+ 
 }
+nav a{
+    font-family: "Playwrite NG Modern", cursive;
+
+}
+.font{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+    background: linear-gradient(0deg, rgba(23,83,84,0.9332983193277311) 0%, rgba(51,65,170,1) 80%);
+}
+    
